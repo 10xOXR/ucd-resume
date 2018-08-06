@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700');
+
 /*---------------------------------------------- COLORS ----------------------------------------------*/
 
 .bg-color-name-title {
     background-color: #676767;
 }
 
-.ui-menu-color-home {
+.ui-menu-color-home,
+.hvr-shutter-out-horizontal-home {
     background-color: #e67e22;
 }
 
-.ui-menu-color-resume {
+.ui-menu-color-resume,
+.hvr-shutter-out-horizontal-resume {
     background-color: #9b59b6;
 }
 
-.ui-menu-color-contact {
+.ui-menu-color-contact,
+.hvr-shutter-out-horizontal-contact {
     background-color: #3498db;
 }
 
-.ui-menu-color-downloadcv {
+.ui-menu-color-downloadcv,
+.hvr-shutter-out-horizontal-downloadcv {
     background-color: #525252;
 }
 
@@ -104,7 +109,6 @@ header {
 
 /*---------------------------------------------- HOVER.CSS ----------------------------------------------*/
 
-.hvr-sweep-to-bottom::before {
-    background-color: rgba(0, 0, 0, 0.25);
-    height: 120px;
+.hvr-shutter-out-horizontal::before {
+    background-color: rgba(255, 255, 255, 0.25);
 }

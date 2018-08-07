@@ -122,7 +122,8 @@ header {
     letter-spacing: 2px;
 }
 
-.navbar-shadow {
+.navbar-shadow,
+.footer-shadow {
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.75);
 }
 
@@ -150,7 +151,7 @@ footer .cv-pdf i {
 }
 
 footer .cv-pdf i:hover {
-    color: #e84610;
+    color: #c7c7c7;
     transition: all .35s ease-in-out;
     -moz-transition: all .35s ease-in-out;
     -webkit-transition: all .35s ease-in-out;
@@ -177,8 +178,28 @@ footer .cv-pdf i:hover {
     -o-transition: all .35s ease-in-out;
 }
 
-.social-links li a i:hover {
-    background: #e84610;
+.social-links .facebook:hover {
+    background: #3B5998;
+}
+
+.social-links .twitter:hover {
+    background: #0084FF;
+}
+
+.social-links .linkedin:hover {
+    background: #0077B5;
+}
+
+.social-links .pintrest:hover {
+    background: #bd081c;
+}
+
+.social-links .instagram:hover {
+    background: #c32aa3;
+}
+
+.social-links .youtube:hover {
+    background: #ff0000;
 }
 
 #footer-details {

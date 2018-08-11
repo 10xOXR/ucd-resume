@@ -42,6 +42,15 @@
     background-color: #ffffff;
 }
 
+.bg-color-personal-info2 {
+    background-color: #3498db;
+    padding: 0 30px;
+}
+
+section {
+    background-color: #3498db;
+}
+
 /*---------------------------------------------- MISC STYLES ----------------------------------------------*/
 
 h1,

@@ -10,45 +10,44 @@
     background-color: #ffffff;
 }
 
+.left-section {
+    color: #FAFAFA;
+}
+
 .ui-menu-color-home,
-.hvr-shutter-out-horizontal-home {
-    background-color: #e67e22;
+.hvr-shutter-out-horizontal-home,
+.bg-color-personal-info {
+    background-color: #990000;
 }
 
 .ui-menu-color-resume,
-.hvr-shutter-out-horizontal-resume {
-    background-color: #9b59b6;
+.hvr-shutter-out-horizontal-resume,
+.bg-color-work-history {
+    background-color: #CC4C00;
+}
+
+.ui-menu-color-interests,
+.hvr-shutter-out-horizontal-interests,
+.bg-color-interests {
+    background-color: #CCCC00;
+}
+
+.ui-menu-color-github,
+.hvr-shutter-out-horizontal-github,
+.bg-color-github {
+    background-color: #009900;
 }
 
 .ui-menu-color-contact,
-.hvr-shutter-out-horizontal-contact {
-    background-color: #3498db;
+.hvr-shutter-out-horizontal-contact,
+.bg-color-contact,
+.btn-contact {
+    background-color: #000099;
 }
 
 .ui-menu-color-downloadcv,
 .hvr-shutter-out-horizontal-downloadcv {
-    background-color: #525252;
-}
-
-.bg-color-personal-info {
-    background-color: #f4f4f4;
-}
-
-.bg-color-work-history{
-    background-color: #9b59b6;
-}
-
-.bg-color-contact {
-    background-color: #ffffff;
-}
-
-.bg-color-personal-info2 {
-    background-color: #3498db;
-    padding: 0 30px;
-}
-
-section {
-    background-color: #3498db;
+    background-color: #4B0082;
 }
 
 /*---------------------------------------------- MISC STYLES ----------------------------------------------*/
@@ -74,13 +73,14 @@ h4 {
     display: table;
 }
 
-.history-heading,
 .section-heading {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
+
+#map {min-height: 360px;}
 
 /*---------------------------------------------- HEADER ----------------------------------------------*/
 
@@ -245,9 +245,29 @@ footer .cv-pdf i:hover {
 
 /*---------------------------------------------- THREE REASONS ----------------------------------------------*/
 
-.three-reasons-icon {
+.main-icon-home {
     font-size: 26px;
-    color: #e67e22;
+    color: #990000;
+}
+
+.main-icon-resume {
+    font-size: 26px;
+    color: #CC4C00;
+}
+
+.main-icon-interests {
+    font-size: 26px;
+    color: #CCCC00;
+}
+
+.main-icon-github {
+    font-size: 26px;
+    color: #009900;
+}
+
+.main-icon-contact {
+    font-size: 26px;
+    color: #000099;
 }
 
 .three-reasons-heading {
@@ -306,7 +326,8 @@ footer .cv-pdf i:hover {
 }
 
 .progress-section {
-    margin: 40px;;
+    margin: 40px;
+    ;
 }
 
 /*---------------------------------------------- WORK HISTORY ----------------------------------------------*/
@@ -348,11 +369,6 @@ footer .cv-pdf i:hover {
     background: #fafafa;
 }
 
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
 .history-items {
     margin-bottom: 30px;
 }
@@ -375,8 +391,10 @@ footer .cv-pdf i:hover {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #e84610;
     color: #fafafa;
+}
+.btn:hover {
+    color: #FAFAFA;
 }
 
 /*---------------------------------------------- MEDIA QUERIES ----------------------------------------------*/

@@ -80,7 +80,13 @@ h4 {
     margin-bottom: 40px;
 }
 
-#map {min-height: 360px;}
+#map {
+    min-height: 360px;
+}
+
+#mapdiv {
+    min-height: 500px;
+}
 
 /*---------------------------------------------- HEADER ----------------------------------------------*/
 
@@ -393,6 +399,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
 }
+
 .btn:hover {
     color: #FAFAFA;
 }
